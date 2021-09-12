@@ -15,3 +15,19 @@
  7. index.html file is the entry point for browsers. You can modify this file if you want, but Webpack will use this file to inject the JavaScript code you write as well as react code and other CSS.
 
  8. React is the main library for working with react while React-dom manages how the document object model works within react.
+
+ 9. Install React Icons from 'npm install react-icons --save'
+
+ // Tailwind CSS requires Node.js 12.13.0 or higher.
+ 10. Install Tailwind css : 'npm install -D tailwindcss@npm:@tailwindcss/       postcss7-compat postcss@^7 autoprefixer@^9's'
+    npm install @tailwindcss/forms
+
+ 11. Install and configure CRACO
+     Create React App doesn’t let you override the PostCSS configuration natively, we also need to install CRACO to be able to configure Tailwind.
+
+     npm install @craco/craco
+
+     Setup craco using 'https://tailwindcss.com/docs/guides/create-react-app'
+
+
+ 
